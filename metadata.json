@@ -1,0 +1,6 @@
+{
+  "name": "AI Game Studio — Vector Pulse",
+  "description": "Модульная игровая студия на Phaser 3, TypeScript и Vite с интеграцией Yandex Games SDK и демонстрационной 2D-аркадой.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

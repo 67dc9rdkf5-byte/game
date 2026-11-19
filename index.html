@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>AI Game Studio — Vector Pulse</title>
+    <meta
+      name="description"
+      content="Модульная игровая студия на Phaser 3, TypeScript и Vite с интеграцией Yandex Games SDK и демонстрационной 2D-аркадой."
+    />
+    <meta property="og:title" content="AI Game Studio — Vector Pulse" />
+    <meta
+      property="og:description"
+      content="Модульная игровая студия на Phaser 3, TypeScript и Vite с интеграцией Yandex Games SDK и демонстрационной 2D-аркадой."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <!-- Официальный скрипт Yandex Games SDK (подключается платформой при публикации) -->
+    <script src="/sdk.js"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-sky-500/30">
+    <div id="app" class="relative w-screen h-dvh overflow-hidden select-none">
+      <div id="game-container" class="absolute inset-0 w-full h-full"></div>
+      <div id="ui-root" class="absolute inset-0 pointer-events-none z-10"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
